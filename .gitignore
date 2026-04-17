@@ -1,0 +1,24 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# root-level env files
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# optional root deps/build (if ever used)
+node_modules/
+dist/
+build/
+
+# vercel
+.vercel/
