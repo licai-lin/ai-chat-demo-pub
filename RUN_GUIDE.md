@@ -7,7 +7,7 @@ This guide is only for running this application locally and confirming frontend-
 Open Terminal A:
 
 ```bash
-cd /Users/licai/ai-product-engineer/aichatdemo/backend
+cd /Users/user/projects/aichatdemo/backend
 npm install
 npm run dev
 ```
@@ -37,7 +37,7 @@ Expected response (example):
 Open Terminal B:
 
 ```bash
-cd /Users/licai/ai-product-engineer/aichatdemo/frontend
+cd /Users/user/projects/aichatdemo/frontend
 npm install
 npm run dev
 ```
@@ -82,14 +82,14 @@ In the UI:
 Run backend on another port:
 
 ```bash
-cd /Users/licai/ai-product-engineer/aichatdemo/backend
+cd /Users/user/projects/aichatdemo/backend
 PORT=4001 npm run dev
 ```
 
 Then set frontend backend URL:
 
 ```bash
-cd /Users/licai/ai-product-engineer/aichatdemo/frontend
+cd /Users/user/projects/aichatdemo/frontend
 echo 'BACKEND_API_URL=http://localhost:4001' >> .env
 npm run dev
 ```
